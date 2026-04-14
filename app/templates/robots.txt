@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Запрещаем индексацию служебных страниц Django
+Disallow: /admin/
+Disallow: /static/
+Disallow: /media/
+Disallow: /api/
+Disallow: /*?*
+
+# Sitemap
+Sitemap: https://aysdrums.uz/sitemap.xml
+
+# Разрешаем все основные боты
+User-agent: Googlebot
+Allow: /
+
+User-agent: Yandexbot
+Allow: /
+
+User-agent: bingbot
+Allow: /
