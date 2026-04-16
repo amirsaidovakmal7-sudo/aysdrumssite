@@ -36,6 +36,10 @@ urlpatterns = [
             template_name="robots.txt",
             content_type="text/plain"
         )),
+    # Google Search Console verification
+    path("google124127781059da73.html", TemplateView.as_view(
+            template_name="google124127781059da73.html",
+        )),
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
