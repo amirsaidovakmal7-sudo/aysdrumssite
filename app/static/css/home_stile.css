@@ -551,7 +551,7 @@
         @media(max-width:1024px){
             /* Layout */
             .intro-card,.about-grid,.teachers-grid,.videos-grid,.bonus-card { grid-template-columns:1fr }
-            .intro-card-img img { height:320px; min-height:unset }
+            .intro-card-img img { height:520px; min-height:unset }
             .bonus-card { grid-template-columns:1fr }
             .bonus-card-img img { height:260px }
             .instruments-grid { grid-template-columns:repeat(3,1fr) }
@@ -597,7 +597,7 @@
             .intro-card-body { padding:2rem 1.5rem }
             .intro-card-body h2 { font-size:1.6rem }
             .free-lesson-tag { font-size:.95rem; padding:.8rem 1.2rem }
-            .intro-card-img img { height:300px; min-height:unset }
+            .intro-card-img img { height:500px; min-height:unset }
 
             /* Form */
             .form-wrapper { padding:2rem 1.4rem }
