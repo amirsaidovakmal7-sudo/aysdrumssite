@@ -782,3 +782,67 @@
 @media(max-width:480px){
     .intro-card-img img { height:480px; min-height:unset; }
 }
+
+
+/* ═══════════════════════════════════════════════════
+   ФИНАЛЬНЫЕ ФИКСЫ — МОБИЛЬНЫЕ ИЗОБРАЖЕНИЯ
+   Добавь В САМЫЙ КОНЕЦ home_stile.css
+═══════════════════════════════════════════════════ */
+
+/* ── INTRO фото на мобиле ── */
+@media(max-width:768px){
+    .intro-card-img { height:auto; }
+    .intro-card-img img {
+        height:320px;
+        min-height:unset;
+        object-fit:cover;
+        object-position:center 30%;
+    }
+}
+@media(max-width:480px){
+    .intro-card-img img {
+        height:260px;
+    }
+}
+
+/* ── ГИТАРА и БАС-ГИТАРА — вертикальные фото, показываем целиком ── */
+@media(max-width:768px){
+    /* Гитара (1-я карточка) */
+    .instrument-card:nth-child(1) .instrument-card-img {
+        height:320px;
+    }
+    .instrument-card:nth-child(1) .instrument-card-img img {
+        object-fit:contain;
+        object-position:center center;
+        background:var(--black-card, #141414);
+    }
+
+    /* Бас-гитара (3-я карточка) */
+    .instrument-card:nth-child(3) .instrument-card-img {
+        height:320px;
+    }
+    .instrument-card:nth-child(3) .instrument-card-img img {
+        object-fit:contain;
+        object-position:center center;
+        background:var(--black-card, #141414);
+    }
+}
+
+@media(max-width:480px){
+    /* На маленьких телефонах — 1 колонка, можно сделать повыше */
+    .instrument-card:nth-child(1) .instrument-card-img {
+        height:360px;
+    }
+    .instrument-card:nth-child(1) .instrument-card-img img {
+        object-fit:contain;
+        background:var(--black-card, #141414);
+    }
+
+    .instrument-card:nth-child(3) .instrument-card-img {
+        height:360px;
+    }
+    .instrument-card:nth-child(3) .instrument-card-img img {
+        object-fit:contain;
+        background:var(--black-card, #141414);
+    }
+}
