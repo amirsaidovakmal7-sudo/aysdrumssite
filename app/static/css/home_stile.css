@@ -769,7 +769,7 @@
 
 /* Intro фото — увеличенная высота на телефоне */
 @media(max-width:768px){
-    .intro-card-img img { height:300px; min-height:unset; }
+    .intro-card-img img { height:500px; min-height:unset; }
 
     /* Гитара (1-я) и бас-гитара (3-я) — показываем целиком на планшете/телефоне */
     .instrument-card:nth-child(1) .instrument-card-img img,
@@ -780,5 +780,5 @@
 }
 
 @media(max-width:480px){
-    .intro-card-img img { height:280px; min-height:unset; }
+    .intro-card-img img { height:480px; min-height:unset; }
 }
