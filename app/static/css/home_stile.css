@@ -691,7 +691,7 @@
             .intro-card-body { padding:1.6rem 1.2rem }
             .intro-card-body h2 { font-size:1.4rem }
             .free-lesson-tag { font-size:.88rem; padding:.7rem 1rem }
-            .intro-card-img img { height:280px; min-height:unset }
+            .intro-card-img img { height:500px; min-height:unset }
 
             /* Form */
             .form-wrapper { padding:1.6rem 1rem }
