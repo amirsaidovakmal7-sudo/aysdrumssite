@@ -2,7 +2,7 @@ from urllib import request
 
 from django.shortcuts import render, redirect
 import telebot
-bot = telebot.TeleBot('8316968855:AAHENIzEd-lbYyBWubfW-fbtiUfaJ-akTIQ')
+bot = telebot.TeleBot('8316968855:AAHevwk_HxRYZB4gf0rO6fGzyc-UTfA3mU0')
 group_id = -5234941244
 
 def home(request):
